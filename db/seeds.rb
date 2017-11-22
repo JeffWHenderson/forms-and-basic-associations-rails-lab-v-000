@@ -162,5 +162,5 @@ genres = Hash[[
 # a = Song.create(title: "hello")
 # b = Artist.create(name: "juvenile")
 # a.artist = b
-# 
+#
 # a.save
