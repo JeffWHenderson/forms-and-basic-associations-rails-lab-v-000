@@ -4,7 +4,7 @@
   <%= f.label :title %>
   <%= f.text_field :title %><br>
 
-  <%= f.label :genre_name %>  
+  <%= f.label :genre_name %>
   <%= f.text_field :genre_name, list: "genre_autocomplete" %>
     <datalist id="genre_autocomplete">
       <% Genre.all.each do |genre| %>
