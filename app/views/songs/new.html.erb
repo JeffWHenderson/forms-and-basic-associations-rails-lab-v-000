@@ -4,8 +4,8 @@
   <%= f.label :title %>
   <%= f.text_field :title %><br>
 
-  <%= f.label :genre_name %>
-  <%= f.text_field :genre_name if false %>   
+  <%= f.collection_select :genre, Genre.all, :id, :name%>  
+  <%= f.text_field :genre_name if false %>
 
   <br />
 
