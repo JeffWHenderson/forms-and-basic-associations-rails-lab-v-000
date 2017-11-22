@@ -3,6 +3,11 @@
 <%= form_for @song  do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %>
+
+  <%= f.label :genre_name %>
+  <%= f.text_field :genre_name %>
+
+<% end %>
   <br />
 
   <%= f.submit %>
